@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivu Travel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" /> -->
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="home">
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header-wrap">
+                <div class="container">
+                    <div class="header-block">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/images/logo.png" alt="">
+                        </a>
+                        <div id="main-menu">
+                            <div class="block-btn-menu">
+                                <p>
+                                    <a href="" class="btn-menu">
+                                        <i class="fa-regular fa-file-lines"></i> Vietnam Travel Inquiry
+                                    </a>
+                                    <a href="" class="btn-menu">
+                                        <i class="fa-regular fa-pen-to-square"></i> Contact us
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="block-module-menu menu">
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="./index.html" class="menu-link">Home</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./about.html" class="menu-link">About us</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./blogs.html" class="menu-link">Blog</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./transpotation.html" class="menu-link">Transpotation</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./flights.html" class="menu-link">Flights</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="./faq.html" class="menu-link">FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-toggle">
+                            <span class="hamButton">
+                                <i class="fa-regular fa-bars"></i>
+                            </span>
+                            <div class="block-menu-mobile">
+                                <div class="custom">
+                                    <ul class="menu-mobile">
+                                        <li class="item">
+                                            <a href="./index.html">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <li class="item">
+                                            <a href="./about.html">
+                                                About
+                                            </a>
+                                        </li>
+                                        <li class="item hasSubmenu">
+                                            <a href="#">
+                                                Destinations
+                                            </a>
+                                            <ul class="submenu">
+                                                <li class="item">
+                                                    <a href="./destination.html">Vietnam destinations</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./destination.html">Indochina destinations</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./destination.html">Cambodia destinations</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="item hasSubmenu">
+                                            <a href="#">
+                                                Tour
+                                            </a>
+                                            <ul class="submenu">
+                                                <li class="item">
+                                                    <a href="./tour-detail.html">Vietnam tour</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./tour-detail.html">Indochina tour</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./tour-detail.html">Cambodia tour</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="item hasSubmenu">
+                                            <a href="#">
+                                                Travel guide
+                                            </a>
+                                            <ul class="submenu">
+                                                <li class="item">
+                                                    <a href="./travel-guide.html">Vietnam travel guide</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./travel-guide.html">Indochina travel guide</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./travel-guide.html">Cambodia travel guide</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="item hasSubmenu">
+                                            <a href="#">
+                                                Hotels
+                                            </a>
+                                            <ul class="submenu">
+                                                <li class="item">
+                                                    <a href="./hotels.html">Vietnam hotels</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./hotels.html">Indochina hotels</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="./hotels.html">Cambodia hotels</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="item">
+                                            <a href="./visa.html">Visa</a>
+                                        </li>
+                                        <li class="item">
+                                            <a href="./news.html">News</a>
+                                        </li>
+                                        <li class="item">
+                                            <a href="">Videos</a>
+                                        </li>
+                                        <li class="item">
+                                            <a href="./blogs.html">Blog</a>
+                                        </li>
+                                        <li class="item">
+                                            <a href="./testimonials.html">Testimonial</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu-web">
+                        <ul class="clearfix">
+                            <li class="item">
+                                <a href="#">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-regular fa-compass"></i>
+                                    </span>
+                                    <span class="title-menu-top">Destinations</span>
+                                </a>
+                                <ul class="menu-web-sub">
+                                    <li class="item">
+                                        <a href="./destination-detail.html">
+                                            Vietnam Destinations
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="./destination-detail.html">
+                                            Cambodia Destinations
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-solid fa-plane-engines"></i>
+                                    </span>
+                                    <span class="title-menu-top">Tours</span>
+                                </a>
+                                <ul class="menu-web-sub">
+                                    <li class="item">
+                                        <a href="./tours.html">
+                                            Vietnam Tour
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="./tours.html">
+                                            Indochina Tour
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-regular fa-compass"></i>
+                                    </span>
+                                    <span class="title-menu-top">Travel Guide</span>
+                                </a>
+                                <ul class="menu-web-sub">
+                                    <li class="item">
+                                        <a href="./travel-guide.html">
+                                            Vietnam Travel Guide
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="./travel-guide.html">
+                                            Cambodia Travel Guide
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-regular fa-hotel"></i>
+                                    </span>
+                                    <span class="title-menu-top">Hotels</span>
+                                </a>
+                                <ul class="menu-web-sub">
+                                    <li class="item">
+                                        <a href="./hotels.html">
+                                            Vietnam Hotels
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="./hotels.html">
+                                            Cambodia Hotels
+                                            <i class="fa-solid fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="./visa.html">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-brands fa-cc-visa"></i>
+                                    </span>
+                                    <span class="title-menu-top">Visa</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="./news.html">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-regular fa-newspaper"></i>
+                                    </span>
+                                    <span class="title-menu-top">News</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-regular fa-camera"></i>
+                                    </span>
+                                    <span class="title-menu-top">Videos</span>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="./testimonials.html">
+                                    <span class="icon-menu-web">
+                                        <i class="fa-sharp fa-regular fa-compass"></i>
+                                    </span>
+                                    <span class="title-menu-top">Testimonials</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="blogs blog-detail">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-lg-7">
+                            <div id="breadcrumb" class="txt_upercase">
+                                <a href="./index.html">Home</a> /
+                                <a href="./blogs.html">Blog</a>
+                            </div>
+                            <div class="list_news">
+                                <div class="news_item clearfix">
+                                    <div class="thumb_news">
+                                        <a href="./blog-detail.html">
+                                            <img src="./assets/images/vietnam-tourism-2023.jpg" class="lazy-loaded" alt="" style="display: inline;">
+                                        </a>
+                                    </div>
+                                    <div class="info_thumb_news">
+                                        <h2>
+                                            <a href="./blog-detail.html">
+                                                Reviews &amp; awards on Vietnam tourism 2023
+                                            </a>
+                                        </h2>
+                                        <div class="block_calenda">
+                                            <i class="fa-regular fa-calendar"></i> 20/04/2023
+                                        </div>
+                                        <div class="lead_news">
+                                            In recent years, Vietnam has always been a highly appreciated destination with great potentials in terms of beautiful scenery, friendly people, unique culture and history, wonderful beaches, etc. Here are the ...
+                                        </div>
+                                        <div class="pull-right">
+                                            <a href="./blog-detail.html" class="btn btn_detail_block">Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news_item clearfix">
+                                    <div class="thumb_news">
+                                        <a href="./blog-detail.html">
+                                            <img src="./assets/images/vietnam-tourism-2023.jpg" class="lazy-loaded" alt="" style="display: inline;">
+                                        </a>
+                                    </div>
+                                    <div class="info_thumb_news">
+                                        <h2>
+                                            <a href="./blog-detail.html">
+                                                Reviews &amp; awards on Vietnam tourism 2023
+                                            </a>
+                                        </h2>
+                                        <div class="block_calenda">
+                                            <i class="fa-regular fa-calendar"></i> 20/04/2023
+                                        </div>
+                                        <div class="lead_news">
+                                            In recent years, Vietnam has always been a highly appreciated destination with great potentials in terms of beautiful scenery, friendly people, unique culture and history, wonderful beaches, etc. Here are the ...
+                                        </div>
+                                        <div class="pull-right">
+                                            <a href="./blog-detail.html" class="btn btn_detail_block">Detail</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="space_bottom_20" id="finder_col_right">
+                                <form action="">
+                                    <input name="keyword" type="text" value="" placeholder="What do you want to find ?" class="form-control">
+                                    <button class="btn_finder_control"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="space_bottom_20" id="blog_tab">
+                                <ul class="nav nav-tabs tab_brow_tour txt_upercase" role="tablist">
+                                    <li class="nav-item " role="presentation">
+                                        <a href="#recent" class="nav-link active" aria-controls="tour" role="tab" data-toggle="tab" data-target="#recent" aria-expanded="true">
+                                            Recent
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="#popular" class="nav-link" aria-controls="tour" role="tab" data-toggle="tab" data-target="#popular" aria-expanded="false">
+                                            Popular
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="recent" role="tabpanel">
+                                        <div class="item_blog_tour clearfix">
+                                            <div class="item_location">
+                                                <div class="thumb_location">
+                                                    <a href="./blog-detail.html">
+                                                        <img src="./assets/images/cambodia-tour-and-travel-guide.jpg" class="lazy-loaded" alt="">
+                                                    </a>
+                                                </div>
+                                                <h1 class="blog_title">
+                                                    <a href="./blog-detail.html">
+                                                        Cambodia Tours and Complete Guide
+                                                    </a>
+                                                </h1>
+                                                <div class="block_calenda">
+                                                    <i class="fa fa-calendar-o"></i> 04, May, 2023 </div>
+                                            </div>
+                                        </div>
+                                        <div class="item_blog_tour clearfix">
+                                            <div class="item_location">
+                                                <div class="thumb_location">
+                                                    <a href="./blog-detail.html">
+                                                        <img src="./assets/images/cambodia-tour-and-travel-guide.jpg" class="lazy-loaded" alt="">
+                                                    </a>
+                                                </div>
+                                                <h1 class="blog_title">
+                                                    <a href="./blog-detail.html">
+                                                        Cambodia Tours and Complete Guide
+                                                    </a>
+                                                </h1>
+                                                <div class="block_calenda">
+                                                    <i class="fa fa-calendar-o"></i> 04, May, 2023 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="popular" role="tabpanel">
+                                        <div class="item_blog_tour clearfix">
+                                            <div class="item_location">
+                                                <div class="thumb_location">
+                                                    <a href="./blog-detail.html">
+                                                        <img src="./assets/images/cambodia-tour-and-travel-guide.jpg" class="lazy-loaded" alt="">
+                                                    </a>
+                                                </div>
+                                                <h1 class="blog_title">
+                                                    <a href="./blog-detail.html">
+                                                        Cambodia Tours and Complete Guide 1
+                                                    </a>
+                                                </h1>
+                                                <div class="block_calenda">
+                                                    <i class="fa fa-calendar-o"></i> 04, May, 2023 </div>
+                                            </div>
+                                        </div>
+                                        <div class="item_blog_tour clearfix">
+                                            <div class="item_location">
+                                                <div class="thumb_location">
+                                                    <a href="./blog-detail.html">
+                                                        <img src="./assets/images/cambodia-tour-and-travel-guide.jpg" class="lazy-loaded" alt="">
+                                                    </a>
+                                                </div>
+                                                <h1 class="blog_title">
+                                                    <a href="./blog-detail.html">
+                                                        Cambodia Tours and Complete Guide
+                                                    </a>
+                                                </h1>
+                                                <div class="block_calenda">
+                                                    <i class="fa fa-calendar-o"></i> 04, May, 2023 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space_bottom_20" id="gallery_col_right">
+                                <div class="title_col_right">
+                                    <i class="fa-sharp fa-regular fa-image-polaroid"></i> Gallery
+                                </div>
+                                <div class="content_gallery">
+                                    <ul>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./assets/images/vivutravel-consultants.jpg" data-fancybox="gallery">
+                                                <img src="./assets/images/vivutravel-consultants.jpg" alt="" width="118" height="78" class="lazy-loaded">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrap">
+                    <div class="newsletter">
+                        <div class="newsletter-inner">
+                            <div class="row align-items-center">
+                                <div class="col-xl-3 col-lg-3 col-md-4 col-xs-12">
+                                    <div class="txt_letter">
+                                        <div class="txt_letter1 txt_color_1 txt_upercase">Newsletter</div>
+                                        <div class="txt_letter2 txt_color_1">Subscribe to our newsletter</div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-lg-5 col-md-8 col-xs-12">
+                                    <form action="" class="form-newsletter">
+                                        <div class="form-group txt_input_letter">
+                                            <input type="text" class="form-control" placeholder="Email Address">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-subscribe btn-letter">
+                                                Subscribe
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-12 col-xs-12">
+                                    <div class="block-safe">
+                                        <img src="./assets/images/img_subscribe.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="custom">
+                                <h3 class="footer-title">Vivutravel Infomation</h3>
+                                <div class="txt_footer_1">
+                                    <p><strong>Head office:</strong> Room 405, Building B13,</p>
+                                    <p>Sai Dong, Long Bien, Hanoi, Vietnam</p>
+                                    <p><strong>Phone:</strong> (+84) 246-253-9595 (Office)</p>
+                                    <p><strong>Hotline:</strong> (+84) 912-988-865 (Director)</p>
+                                    <p><strong>Hotline:</strong> (+84) <span style="color: #ffcc99;"><strong>976-094-514</strong></span> (Tours)</p>
+                                    <p><strong>Hotline:</strong> (+84) <span style="color: #ffcc99;"><strong>979-194-688 </strong></span>(Tours)</p>
+                                    <p><strong>Hotline:</strong> (+84) <span style="color: #ffcc99;"><strong>988-094-018</strong> </span>(Tours)</p>
+                                    <p><strong><strong>Hotline:</strong></strong> (+84)<strong> <span style="color: #ffcc99;"><strong>974-743-444</strong> </span>
+                                        </strong>(Tours)</p>
+                                    <p><strong>Hotline:</strong> (+84) <span style="color: #ff99cc;">978-038-386</span> (Visa)</p>
+                                    <p><strong>Email:</strong> <a href="mailto:info@vivutravel.com" rel="nofollow">info@vivutravel.com</a></p>
+                                    <p>Member of Vietnam National Administrator of Tourism since 2006</p>
+                                    <p>Member of Pacific Asia Travel Association (PATA) since 2015</p>
+                                    <p>Member of American Society of Travel Agents (ASTA) since 2015</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="custom">
+                                        <h3 class="footer-title">Plan Your Trip</h3>
+                                        <div class="txt_footer_2">
+                                            <ul>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Why use tour operator
+                                                </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Meet travel consultant
+                                                </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Vietnam and Cambodia
+                                                </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="custom">
+                                        <h3 class="footer-title">Tour Booking</h3>
+                                        <div class="txt_footer_2">
+                                            <ul>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Steps to book
+                                                </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Steps to book
+                                                </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Steps to book
+                                                </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="custom">
+                                        <h3 class="footer-title">DURING & AFTER TRIP</h3>
+                                        <div class="txt_footer_2">
+                                            <ul>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Tour guides & Drivers
+                                                </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Feedback
+                                                </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="">
+                                                    . Travel Enquiry
+                                                </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="custom">
+                                <h3 class="footer-title">Connect with Us</h3>
+                                <div class="txt-footer_1">
+                                    <p class="footer-socials">
+                                        <a href="" target="_blank">
+                                            <img src="./assets/images/share_1.png" alt="" width="30" height="30" class="lazy-loaded">
+                                        </a>
+                                        <a href="" target="_blank">
+                                            <img src="./assets/images/share_2.png" alt="" width="30" height="30" class="lazy-loaded">
+                                        </a>
+                                        <a href="" target="_blank">
+                                            <img src="./assets/images/share_3.png" alt="" width="30" height="30" class="lazy-loaded">
+                                        </a>
+                                        <a href="" target="_blank">
+                                            <img src="./assets/images/share_4.png" alt="" width="30" height="30" class="lazy-loaded">
+                                        </a>
+                                        <a href="" target="_blank">
+                                            <img src="./assets/images/share_5.png" alt="" width="30" height="30" class="lazy-loaded">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt_copyright">
+                        <div class="custom">
+                            <p style="color: #ffffff;"><a href="">Vivutravel</a> © 2006 - 2023. All copyrights reserved.</p>
+                            <p style="color: #ffffff;">Trading name of KT ADVENTURE - Business Licence: 0104000493 - International Tour Operator License: 0747</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <a href="javascript:void(0);" class="backtotop"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+
+    <script src="./assets/js/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js "></script> -->
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
+
+</html>
