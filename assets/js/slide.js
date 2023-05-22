@@ -1,11 +1,22 @@
 $('.slide-testi').owlCarousel({
-    loop: true,
+    /*loop: true,
     margin: 0,
     nav: false,
     dots: true,
     items: 1,
     animateIn: 'fadeIn',
-    animateOut: 'fadeOut'
+    animateOut: 'fadeOut'*/
+
+    loop: false,
+    autoPlay: 100000,
+    items: 1,
+    itemsDesktop: [1199, 1],
+    itemsTablet: [600, 1],
+    itemsDesktopSmall: [900, 2],
+    itemsMobile: [479, 1],
+    slideSpeed: 500,
+    pagination: true,
+    transitionStyle: 'fade'
 })
 
 $('#slide_gallery').owlCarousel({

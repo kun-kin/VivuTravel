@@ -150,6 +150,9 @@
             height: auto;
             overflow: auto;
             max-height: 90vh;
+            &::-webkit-scrollbar {
+                display: none;
+            }
             ul {
                 li {
                     border-top: 1px solid #16364c;
@@ -203,8 +206,20 @@
         background-color: var(--second-color);
         z-index: 90;
         box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.14), 0px 3px 10px 0px rgba(255, 255, 255, 0.12), 0px 2px 4px -4px rgba(255, 255, 255, 0.2);
+        .logo {
+            max-width: 200px;
+            @media(max-width: 1200px) {
+                max-width: 170px;
+            }
+        }
+        #menu-web {
+            display: none;
+        }
         .header-wrap {
             padding: 0;
+        }
+        .block-btn-menu {
+            display: none;
         }
     }
 }

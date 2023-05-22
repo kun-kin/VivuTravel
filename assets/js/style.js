@@ -60,11 +60,18 @@ $(document).ready(function() {
     $("#checkOut").flatpickr({
         dateFormat: "d/m/Y"
     });
+    $(".date-select").flatpickr({
+        dateFormat: "d/m/Y"
+    });
+    $(".date-select2").flatpickr({
+        dateFormat: "d/m/Y"
+    });
 
     $(".menu-toggle .hamButton").click(function() {
         $(this).parents('.menu-toggle').children('.block-menu-mobile').toggleClass('open');
         $('.hasSubmenu').removeClass('open');
         $('.hasSubmenu').children('.submenu').slideUp();
+        $('body').toggleClass('ov-hidden');
 
     });
 
